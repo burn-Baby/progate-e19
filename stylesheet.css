@@ -128,6 +128,105 @@ p.nama-logo {
   }
 }
 
+/* SERVICEs */
+.services-section{
+  background: #666;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.inner-width{
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 15px;
+  font-weight: 100;
+}
+
+.border{
+  width: 160px;
+  height: 2px;
+  background: #f39c12;
+  margin: 40px auto;
+}
+
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 20%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #f39c12
+  color: #55c1e2;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  font-size: 26px;
+}
+
+.service-box:hover .service-icon{
+  background: #f39c12;
+  color: #ddd;
+}
+.service-title{
+  color: #f39c12;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.service-desc{
+  color: #ecf0f1;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 35px;
+    letter-spacing: 8px;
+  }
+}
 
 /* PROFILE */
 .main-profile {
